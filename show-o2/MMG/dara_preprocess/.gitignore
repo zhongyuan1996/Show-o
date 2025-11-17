@@ -1,0 +1,20 @@
+# Output directory containing processed data and summaries
+output/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+

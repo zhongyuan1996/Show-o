@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb-filter
+*.py.orig
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Model weights and checkpoints (large files)
+*.pth
+*.ckpt
+*.safetensors
+
+# Exception: Allow specific required data files in MMG
+!show-o2/MMG/dara_preprocess/AppendixASingleDX.txt
+!show-o2/MMG/dara_preprocess/DXCCSR_v2025-1.csv
+
+# Logs and output files
+*.log
+
+# WandB
+wandb/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# Specific output files
+show-o2/vid_und_output.txt
+validation_prompts/
